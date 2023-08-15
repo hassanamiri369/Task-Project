@@ -1,0 +1,78 @@
+
+
+.article-header{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cart-item{
+    /* border: 1px solid black; */
+    width: 373px;
+    min-height: 408px;
+    margin: 8px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.cart-item .post-image img{
+    width: 373px;
+    height: 154px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0 ;
+}
+
+.cart-item .post-content{
+    padding: 15px;
+}
+
+.cart-item .post-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-data{
+    color: gray;
+}
+.post-tag{
+    border: 1px solid gainsboro;
+    padding: 5px;
+    background-color: gainsboro;
+    font-size: 14px;
+    color: gray;
+    border-radius: 20px;
+}
+
+.post-title{
+    /* background-color: red; */
+    text-align: right;
+    color: #524f4f;
+}
+
+.post-text{
+    text-align: right;
+    line-height: 28px;
+    color: #7c7777;
+    font-size: 14px;
+}
+
+.post-link{
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+    color: green;
+    
+}
+
+.post-link p{
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+html , body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+@font-face {
+  font-family: "shabnam";
+  src: url("./fonts/Shabnam-Bold.ttf") ,
+   url("./fonts/Shabnam-Bold.eot"),
+   url("./fonts/Shabnam-Bold.woff"),
+   url("./fonts/Shabnam-Bold.woff2")
+   ;
+}
+
+.App{
+  background-color:lightblue;
+  max-width: 1366px;  
+  display: flex;
+  justify-content: center;
+  font-family: 'shabnam';
+}
+
+.container{
+  /* border: 1px solid black; */
+  
+  max-width: 1066px;
+}
+
